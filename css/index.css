@@ -134,81 +134,40 @@ html,
 body {
   height: 100%;
 }
-
 .container {
-	width: 70%;
-	margin: 0 auto;
-  }
-
-  /* header */
-
-  header nav {
-	display: flex;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  justify-content: space-evenly
-  }
-
-  header nav a {
-	font-size: 25px;
-	color: gray;
-	text-decoration: none;
-  }
-
-  header nav a:hover {
-	text-decoration: underline;
-  }
-
-  .atf {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    background-color: gray;
-  }
-
-  .atf .atf-text {
-	display: flex;	
-  font-size: 77px;
-  margin: 20px;
-  }
-
-  img {
-    border-radius: 50%;
-    margin: 30px;
-  }
-
-  .address ul {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-left: 100px;
-    font-size: 35px;
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    
-  }
-
-  .skills {
-    border-bottom: 2px solid gray;
-  }
-
-  .skills h1 {
-    font-size: 30px;
-    margin-top: 30px;
-    border-bottom: 2px solid gray;
-  }
-
-  p {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  footer {
-	margin: 32px 0;
-	text-align: center;
-	font-size: 14px;
-  }
-
+  width: 70%;
+  margin: 0% auto;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 2%;
+}
+.container header nav a {
+  font-size: 18px;
+  color: grey;
+  text-decoration: none;
+}
+.container header nav a:hover {
+  text-decoration: underline;
+}
+.container .atf {
+  display: flex;
+  flex-flow: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 35px;
+  background-color: grey;
+}
+.container .atf .img {
+  border-radius: 50%;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+}
+.container footer {
+  margin: 32px 0;
+  text-align: center;
+  font-size: 14px;
+}
