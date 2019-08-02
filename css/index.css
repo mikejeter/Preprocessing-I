@@ -134,6 +134,9 @@ html,
 body {
   height: 100%;
 }
+.green-text {
+  color: green;
+}
 .container {
   width: 70%;
   margin: 0% auto;
@@ -186,14 +189,11 @@ body {
   text-align: left;
   font-size: 30px;
   padding: 50px 10px 50px 10px;
+  color: green;
 }
 @media (max-width: 500px) {
   .container .atf-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 22px;
-    padding: 8px;
   }
 }
 .container img {

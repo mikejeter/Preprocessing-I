@@ -60,6 +60,10 @@ html, body {
 @backgroundLightgrey: lightgrey;
 @backgroundGrey: grey;
 
+.green-text {
+	color: green;
+}
+
 .container {
 	width: 70%;
 	margin: 0% auto;
@@ -113,13 +117,10 @@ html, body {
 		  text-align: left;
 		  font-size: 30px;
 		  padding: 50px 10px 50px 10px;
-
+		  .green-text();
+		  
 		  @media (max-width: 500px) {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			font-size: 22px;
-			padding: 8px;
+			  font-size: 22px;
 		  }
 	  }
 
